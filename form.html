@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title> Structure </title>
+	</head>
+        
+	<body>
+        <h1 style="text-align:center">Form</h1>
+        <hr>
+        <p>&nbsp;</p>
+        <h2>Basic</h2>
+        Name:<br>
+        <input type="text" name="name" placeholder="name">
+        <br>
+        Email:<br>
+        <input type="text" name="email" placeholder="email">
+        <br><br>
+        <input type="submit" name="Submit" value="Submit">
+         <p>&nbsp;</p>
+         <h2>Fieldset</h2>
+        <form action="http://www.google.com" method="get">
+        <fieldset>
+            <legend>Registration Form</legend>
+             <p>Name:<br>
+            <input type="text" name="name" placeholder="name">
+            <br>
+            Email:<br>
+            <input type="text" name="email" placeholder="email">
+             <br>
+            Country:<br>
+            <select name="Country"> 
+                <option value="Taiwan">Taiwan</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Indonesia" selected>Indonesia</option>
+            </select>
+            <br>
+            Address
+            <br>
+            <textarea name="address" placeholder="my address"></textarea>
+            <br><br>
+            <input type="submit" style="height:30px">
+            &nbsp;
+            <button type="reset" value="Reset" style="height:30px">Reset</button>
+        </fieldset>
+            </form>
+        
+         <h2>Input Type</h2>
+        <form action="#" method="get">
+        <fieldset>
+            <legend>Registration Form</legend>
+             <p>Name:<br>
+            <input type="text" name="name" placeholder="name" value="Suharto" readonly>
+            <br>
+            Password:<br>
+            <input type="password" name="password"   placeholder="password">
+             <br>
+            Phone:<br>
+            <input type="tel" name="phone" placeholder="phone" maxlength="10">
+             <br>
+            Quantity:<br>
+            <input type="number" name="quantity" step="10" min="50" max="100"  placeholder="quantity">
+             <br>
+            Date:<br>
+            <input type="date" name="date" placeholder="date">
+             <br>
+                 
+            Month:<br>
+            <input type="month" name="month" placeholder="month" disabled>
+             <br>
+            Email:<br>
+            <input type="email" name="email" placeholder="email">
+             <br>
+            Country:<br>
+            <select name="Country"> 
+                <option value="Taiwan">Taiwan</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Indonesia" selected>Indonesia</option>
+            </select>
+            <br>
+            Address
+            <br>
+            <textarea name="address" placeholder="my address"></textarea>
+            <br><br>
+            <input type="submit" style="height:30px">
+            &nbsp;
+            <button type="reset" value="Reset" style="height:30px">Reset</button>
+        </fieldset>
+            </form>
+	</body>
+
+</html>
